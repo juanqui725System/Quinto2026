@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(25, 167, 108);
+    background-image: url(../img/looking.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+nav{
+    background-color: #333;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(61, 74, 185);
+}
+nav ul li a:hover{
+    color: chartreuse;
+    background-color: blue;
+}
+.titulo{
+    color: blue;
+    text-align: center;
+}
