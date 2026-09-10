@@ -9,7 +9,7 @@ function sumar() {
     let matriz = "";
     for (let i = 0; i < num1; i++) {
         for (let j = 0; j < num2; j++) {
-            matriz += "* ";
+            matriz += "🌹 ";//🔥💖
         }
         matriz += "<br>";
     }
